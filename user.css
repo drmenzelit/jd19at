@@ -1,0 +1,70 @@
+.demo ul.categories-module.mod-list {
+    list-style: none;
+    margin-left: 0;
+}
+.demo ul.categories-module.mod-list li h4 {
+	margin: 0;
+}
+.demo ul.categories-module.mod-list span {
+	padding: 10px;
+}
+.demo ul.categories-module.mod-list a {
+	display: flex;
+	background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+.demo ul.categories-module.mod-list a:hover {
+    background-position: 0 0;
+}
+.demo ul.categories-module.mod-list a:hover {
+	text-decoration: none;
+}
+.demo ul.categories-module.mod-list span:first-of-type {
+  flex: 1;
+}
+.demo ul.categories-module.mod-list li:nth-child(1) h4 {
+    border-left: 2px solid yellow;
+}
+.demo ul.categories-module.mod-list li:nth-child(1) a {
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    yellow 50%,
+    yellow);
+}
+.demo ul.categories-module.mod-list li:nth-child(1) span.anz {
+    background-color: yellow;
+}
+.demo ul.categories-module.mod-list li:nth-child(2) h4 {
+    border-left: 2px solid red;
+}
+.demo ul.categories-module.mod-list li:nth-child(2) a {
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    red 50%,
+    red);
+}
+.demo ul.categories-module.mod-list li:nth-child(2) span.anz {
+    background-color: red;
+}
+.demo ul.categories-module.mod-list li:nth-child(3) h4 {
+    border-left: 2px solid blue;
+}
+.demo ul.categories-module.mod-list li:nth-child(3) a {
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    blue 50%,
+    blue);
+}
+.demo ul.categories-module.mod-list li:nth-child(3) span.anz {
+    background-color: blue;
+}
+
+/* Slideshow */
+.w-100 {
+	width: 100%;
+}
+
