@@ -13,6 +13,10 @@ Override (alternatives Layout) für Modul Beiträge - Kategorien: Es zeigt eine 
 
 Alternatives Layout für das Modul Beiträge - Newsflash um eine Slideshow anzuzeigen.
 
+**layouts/joomla/content/info_block**
+
+Override für Author mit Fontawesome Icon
+
 **Links zum Vortrag**
 
 [Video](https://youtu.be/Y9SFrD4hJmo)
